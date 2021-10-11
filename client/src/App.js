@@ -1,13 +1,18 @@
 import React from 'react';
-
+import login from './Pages/Login.js'
 import './App.css';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Home from'./Pages/home.js'
 
 function App() {
-  return (
-    <h1>Home page</h1>
+  return (   
+    <Router>
+          <Route exact strict path="/"  component={login}/>
+          <Route exact strict path="/home" component={Home} />
+
+    </Router>
+  
   )
-}
+  }
 
 export default App;
