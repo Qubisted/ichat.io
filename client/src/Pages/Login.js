@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from '../Components/navabar.js'
-import image_center from './hero-1.jpg';
+import image_center from './hero-img.png';
 import './login.css'
 function login() {
     return(
@@ -17,9 +17,7 @@ function login() {
       />
 
 
-
-
-
+      <h1 className="heading">IChat.io || Signup Now!</h1>
 
         </div>
 
