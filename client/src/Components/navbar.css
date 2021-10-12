@@ -1,0 +1,41 @@
+body{
+    background-color: #ff6666;
+    color: white;
+}
+
+#nav-link {
+    margin-right: 8px;
+    padding: 10px 24px;
+    font-family: Inter, sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size:larger;
+}
+
+.button {
+    height: 40px;
+    margin-left: 8px;
+    padding: 10px 24px;
+    border-radius: 20px;
+    background-color: #582be8;
+    font-family: Inter, sans-serif;
+    color: #fff;
+    font-weight: 700;
+}
+.w-button {
+    display: inline-block;
+    padding: 9px 15px;
+    background-color: #3898EC;
+    color: white;
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0;
+    border-radius: 1rem ;
+}
+a {
+    background-color: transparent;
+}
+
+
