@@ -42,3 +42,22 @@ a {
     margin-right: -900px;
     padding-right:-5rem;
 }
+
+.button-2 {
+    display: block;
+    width: 270px;
+    height: 56px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 100px;
+    background-color: #333342;
+    -webkit-transition: background-color 300ms ease;
+    transition: background-color 300ms ease;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+    text-align: center;
+}
