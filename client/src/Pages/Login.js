@@ -17,6 +17,9 @@ function login() {
        We are even looking for Contributers For this Project project across the planet<br />
       </p>
 
+      <a className="button-2 sign-in-styles">Start Contributing</a>
+
+
       
 
       <img
@@ -27,7 +30,6 @@ function login() {
         alt="React Bootstrap logo"
       />
 
-      <a className="button-2 sign-in-styles">Login</a>
 
      
 
