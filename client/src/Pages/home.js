@@ -1,8 +1,7 @@
 import React from 'react'
-export default function home() {
-    return (
-        <div>
-            TEST HOME
-        </div>
-    )
+import './home.css'
+import homenav from '../Components/home-navabar.js'
+
+function homePage(){
+    
 }
