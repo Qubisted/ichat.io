@@ -1,0 +1,13 @@
+.linkButton {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    color: #FFF;
+    font-size: 0.63636rem;
+    line-height: 1.36;
+    padding: 5px 0;
+    text-decoration: none;
+    letter-spacing: 0;
+    background: linear-gradient(currentColor 0 0) var(--p, 0) 100%/var(--d, 0) 2px no-repeat;
+    transition: 0.3s, background-position 0s 0.3s;
+}

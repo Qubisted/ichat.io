@@ -2,7 +2,7 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button, Navbar, NavbarBrand, Container,Nav } from 'react-bootstrap';
 import logo from '../Components/head.svg';
-
+import './home-navbar.css'
 function homeNav(){
     return(
         <Navbar>
@@ -16,6 +16,7 @@ function homeNav(){
         className="d-inline-block align-top  "
         alt="React Bootstrap logo"
       />
+
                 
             </NavbarBrand>
         </Container>
