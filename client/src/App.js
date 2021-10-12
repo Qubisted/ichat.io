@@ -1,17 +1,25 @@
 import React from 'react';
 import login from './Pages/Login.js'
 import './App.css';
-import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from'./Pages/home.js'
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+
 
 function App() {
   return (   
+    // Routes
     <Router>
-          <Route exact strict path="/"  component={login}/>
-          <Route exact strict path="/home" component={Home} />
+      {/* <Link to={'/login'}>
+      <button> Click Me </button>
 
+    </Link> */}
+      <Route exact path = '/' component={Home}></Route>
+      <Route path='/login' component={login}></Route>
     </Router>
-  
+
+
+
+
   )
   }
 
