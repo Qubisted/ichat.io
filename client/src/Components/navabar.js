@@ -23,9 +23,10 @@ function nav() {
 
       {/* Sign in button */}
 
-    <a  className="button w-button ">Sign in</a>
+    <a  className="nav-link sign-in-styles">Sign in</a>
 
     {/* Waitlist button */}
+    <a className="button w-button">Join Waitlist</a>
 
   </Container>
 </Navbar>

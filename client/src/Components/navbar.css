@@ -3,7 +3,7 @@ body{
     color: white;
 }
 
-#nav-link {
+.nav-link {
     margin-right: 8px;
     padding: 10px 24px;
     font-family: Inter, sans-serif;
@@ -38,4 +38,7 @@ a {
     background-color: transparent;
 }
 
-
+.sign-in-styles{
+    margin-right: -900px;
+    padding-right:-5rem;
+}
