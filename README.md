@@ -8,3 +8,8 @@
 
 
 ![Repo Size](https://img.shields.io/github/repo-size/ichat-io/ichat.io?color=orange)
+
+
+![SemVer - API Version](https://img.shields.io/badge/version-1.0.0--beta--unstable-ff69b4)
+
+(Still Under Development)
